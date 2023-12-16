@@ -586,8 +586,8 @@ const LandingPageDuville = () => {
         alt=""
         src="/image-14@2x.png"
       />
-      <div className="absolute top-[calc(50%_-_2500.5px)] left-[396px] w-[1209px] h-[200px] text-right text-87xl text-gray-700 font-lato">
-        <div className="absolute top-[calc(50%_-_100px)] left-[0px] leading-[20px] font-extrabold flex items-center w-[376px] h-[200px] [text-shadow:4px_0_0_#fff,_0_4px_0_#fff,_-4px_0_0_#fff,_0_-4px_0_#fff]">
+      <div className="absolute top-[calc(50%_-_2500.5px)] left-[calc(50%_-_564px)] w-[1209px] h-[200px] text-right text-87xl text-gray-700 font-lato">
+        <div className="absolute top-[calc(50%_-_100px)] left-[calc(50%_-_604.5px)] leading-[20px] font-extrabold flex items-center w-[376px] h-[200px] [text-shadow:4px_0_0_#fff,_0_4px_0_#fff,_-4px_0_0_#fff,_0_-4px_0_#fff]">
           <span className="[line-break:anywhere] w-full">
             <p className="[margin-block-start:0] [margin-block-end:70px]">
               Old
@@ -595,7 +595,7 @@ const LandingPageDuville = () => {
             <p className="m-0">Values</p>
           </span>
         </div>
-        <div className="absolute top-[calc(50%_-_100px)] left-[695px] leading-[20px] font-extrabold text-gray-100 text-left flex items-center w-[514px] h-[200px]">
+        <div className="absolute top-[calc(50%_-_100px)] left-[calc(50%_+_90.5px)] leading-[20px] font-extrabold text-gray-100 text-left flex items-center w-[514px] h-[200px]">
           <span className="w-full">
             <p className="[margin-block-start:0] [margin-block-end:70px]">
               New
@@ -604,18 +604,46 @@ const LandingPageDuville = () => {
           </span>
         </div>
         <img
-          className="absolute top-[calc(50%_-_87.4px)] left-[470px] w-[181px] h-[174.9px] object-cover"
+          className="absolute top-[calc(50%_-_87.4px)] left-[calc(50%_-_134.5px)] w-[181px] h-[174.9px] object-cover"
           alt=""
           src="/image-11@2x.png"
         />
       </div>
       <div className="absolute top-[1213px] left-[822px] bg-red w-1.5 h-[99px]" />
-      <div className="absolute h-[0.99%] w-[85.42%] top-[0.6%] right-[8.7%] bottom-[98.41%] left-[5.89%] text-base text-white font-lato">
-        <div className="absolute h-[32.14%] w-[6.25%] top-[33.93%] right-[0.01%] bottom-[33.93%] left-[93.74%] flex flex-row items-start justify-start gap-[61px]">
+      <div className="absolute top-[34px] left-[113px] w-[1728px] flex flex-row items-center justify-start gap-[15px] text-base text-white font-lato">
+        <img
+          className="relative w-[100px] h-[50px] object-cover z-[0]"
+          alt=""
+          src="/image-15@2x.png"
+        />
+        <div className="relative w-[1480px] h-[33px] z-[1]">
+          <div className="absolute top-[0px] left-[0px] leading-[20px] flex items-center w-[82px] h-[33px]">
+            Business
+          </div>
+          <div className="absolute top-[5px] left-[223px] leading-[20px] flex items-center w-[82px] h-[23px]">
+            Community
+          </div>
+          <div className="absolute top-[5px] left-[446px] leading-[20px] flex items-center w-[82px] h-[23px]">
+            About Us
+          </div>
+          <div className="absolute top-[5px] left-[669px] leading-[20px] flex items-center w-[82px] h-[23px]">
+            Projects
+          </div>
+          <div className="absolute top-[5px] left-[892px] leading-[20px] flex items-center w-[82px] h-[23px]">
+            Newsroom
+          </div>
+          <div className="absolute top-[5px] left-[1115px] leading-[20px] flex items-center w-[100px] h-[23px]">
+            Duville Club
+          </div>
+          <div className="absolute top-[5px] left-[1356px] leading-[20px] flex items-center w-[124px] h-[23px]">
+            News Room
+          </div>
+        </div>
+        <div className="my-0 mx-[!important] absolute h-[36%] top-[32%] bottom-[32%] left-[calc(50%_+_717.4px)] shrink-0 flex flex-row items-start justify-start gap-[61px] z-[2]">
           <img
             className="relative w-[23.2px] h-[17.2px] object-cover"
             alt=""
-            src="/menu@2x.png"
+            src="/msg.svg"
           />
           <img
             className="relative w-[18.4px] h-[18px] object-cover"
@@ -623,15 +651,6 @@ const LandingPageDuville = () => {
             src="/menu@2x.png"
           />
         </div>
-        <div className="absolute top-[0px] left-[241px] leading-[20px] whitespace-pre-wrap flex items-center w-[916px] h-14">
-          {" "}
-          Business Community About Us Projects Newsroom Duville Club News Room
-        </div>
-        <img
-          className="absolute top-[3px] left-[0px] w-[100px] h-[50px] object-cover"
-          alt=""
-          src="/image-15@2x.png"
-        />
       </div>
     </div>
   );
